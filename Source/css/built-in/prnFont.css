@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Geometric';
+	src: url('../../font/Geometric.ttf') format('truetype'),
+		 url('../../font/Geometric.woff') format('woff');
+}
+@font-face {
+	font-family:'Optimize';
+	src: url('../../font/Optimize.woff') format('woff');
+}
