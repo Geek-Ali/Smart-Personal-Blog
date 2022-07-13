@@ -2,112 +2,72 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+.container{
+	margin: 20px 10px 0 10px;
+	padding: 10px 5px;
+	border-radius: 20px;
 }
-.headMenu{
-	border-radius: 50px;
+.Nav-ali{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(12,52,61);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
 }
-
-.Floating-title {
+.Nav-ali img{
+	width: 80px;
+	margin-left: 15px;
+}
+.Nav-ali h3{
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.Data-Ali{
+	margin: 20px 10px 10px;
+}
+.leading-line{
 	width: 100%;
-	height: 80px;
-	border-radius: 50px 50px 0px 0px;
-	background-color: white;
+	height: 50px;
 	display: flex;
-	align-items: center;
-	justify-content: center
-	
+	background-color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
 }
-
-.Floating-title img {
-	width: 65px;
-	height: 65px;
-	/* float: left; */
-	
+.leading-line img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 10px;
+	top: -10px;
 }
-
-
-.Floating-title h1{
-	font-family: 'Geometric';
-	color: rgb(35, 197, 136);
+.leading-line p{
+	margin-left: 15px;
+	line-height: 50px;
+	font-family:"微软雅黑";
+	font-weight: bold;
+	font-size: 22px;
 }
-.Menulist{
+.Ali-top{
+	margin: 10px !important;
+}
+.Ali-wh{
 	width: 100%;
-	height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: white;
-	border-radius: 0px 0px 50px 50px;
-	/* overflow: hidden; */
-	
-	
+	height: 130px;
+	padding: 5px;
 }
-.Menulist ul{
-	margin: 20px 10px;
+.Ali-nr{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to left, rgba(12,52,61,.7), rgba(12,52,61,1));
+	border-radius: 20px;
+	transition: box-shadow 1s;
 }
-.Menulist ul li{
-	margin: 0 10px;
-	padding: 8px 15px;
-	float: left;
-	list-style: none;
-	font-family:'Optimize';
-	font-size: 25px;
-	border-radius: 70px;
-	transition:color 2.5s;
-	transition:background 2.5s;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-	
-}
-
-.Menulist ul li:hover{
-	background:rgb(35, 197, 136);
-	
-	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-}
-.Menulist ul li img{
-	width: 30px;
-	height: 30px;
-}
-.Menulist ul li a{
-	text-decoration: none;
-	color: black;
-}
-.Menulist ul li a:hover{
-	color: #ffffff;	
-}
-
-h1,h2,h3,h4,h5,h6,p,span,li,a{
-	cursor: url(../../img/mouse-cursor/Diag-Reduced/link.cur),default;
-}
-@media screen and (max-width:825px) {
-	.Menulist{
-		display: none;
-	}
-	.Floating-title{
-		border-radius: 50px;
-	}
-}
-@media screen and (max-width:300px) {
-	body{
-		padding: 0;
-	}
-	.Floating-title{
-		margin-top: 10%;
-	}
-	.Floating-title img{
-		width: 40px;
-		height: auto;
-	}
-	.Floating-title h1{
-		font-size: 30%;
-		color: red;
-	}
+.Ali-nr:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
